@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check-in today</title>
+    <script src="https://kit.fontawesome.com/e18f1079ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="title">
+        Check-in today
+      </div>
+      <div id="header">
+        <button id="backButton"><i class="fas fa-chevron-left"></i></button>
+        <div id="monthDisplay"></div>
+        <button id="nextButton"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      <div id="weekdays">
+        <div>Sunday</div>
+        <div>Monday</div>
+        <div>Tuesday</div>
+        <div>Wednesday</div>
+        <div>Thursday</div>
+        <div>Friday</div>
+        <div>Saturday</div>
+      </div>
+      <div id="calendar"></div>
+      <p class="titleChecked">
+        Tổng ngày làm:<span id="footerChecked"></span>
+      </p>
+      <input id="eventTitleInput" value="Checked-in" />
+    <p id="eventText"></p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
