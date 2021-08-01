@@ -68,7 +68,7 @@ function load() {
   
   for(let i = 1; i <= paddingDays + daysInMonth; i++) {
     const daySquare = document.createElement('div');
-    daySquare.classList.add('day',);
+    daySquare.classList.add('day');
     
     const dayString = `${month + 1}/${i - paddingDays}/${year}`;
     if (i > paddingDays) {
