@@ -68,7 +68,7 @@ function load() {
   
   for(let i = 1; i <= paddingDays + daysInMonth; i++) {
     const daySquare = document.createElement('div');
-    daySquare.classList.add('day', 'testCurrentDay');
+    daySquare.classList.add('day',);
     
     const dayString = `${month + 1}/${i - paddingDays}/${year}`;
     if (i > paddingDays) {
@@ -94,11 +94,11 @@ function load() {
   }
 
   // If current day, then use click checked
-  const currentMonth = new Date().getMonth();
-  if(month === currentMonth){
-    const getCurrentDay = document.querySelector('#currentDay')
-    getCurrentDay.classList.remove('testCurrentDay')
-  }
+  // const currentMonth = new Date().getMonth();
+  // if(month === currentMonth){
+  //   const getCurrentDay = document.querySelector('#currentDay')
+  //   getCurrentDay.classList.remove('testCurrentDay')
+  // }
 }
 
 function initButtons() {
